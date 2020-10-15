@@ -1,0 +1,353 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* STYLE */
+
+/* MAIN */
+body{
+    margin: 0px;
+    padding: 0px;
+}.container{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.column{
+    width: 28%;
+    border: 2px solid black;
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.about-img{
+    height: 30px;
+    width: 30x;
+    margin: 50%;
+}
+/* MAIN TEXT */
+.center-text{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    color: white;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+/* STYLE */
+
+/* BANNER */
+.tiptop{
+    background-color: red;
+    height: 200px;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.tipimg{
+    width: 100%;
+    height: 400px;
+}
+
+.bannertxt{
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    color: white;
+}
+
+.YouTube{
+    position: absolute;
+    top: 10%;
+    left: 73%;
+    color: white;
+    height: 70px;
+}
+
+.Instagram{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    color: white;
+    height: 80px;
+}
+
+/* NAV */
+.nav-navbar{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    border-bottom: groove;
+    position:sticky;
+    top:0;
+}
+
+.navbar-item{
+    color: red;
+    margin-top: 6px;
+    padding: 10px;
+    /* margin-right: 70px; */
+    float: right;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    text-underline: none;
+}
+
+.img-header{
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 70px;
+    /* width: 70px; */
+}
+
+.navbar-item a:hover{
+    color: rgb(85, 42, 95);
+    border-color: rgb(85, 42, 95);
+    /* border-radius: 80px; */
+}
+
+/* COLLAPSABLE */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+/* XTRA STUFF */
+
+/* MAIN */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* COLLAPSABLE */
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* SLIDESHOW */
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* MAIN TEXT */
+.center-text{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    color: white;
+}
+
+/* FOOTER */
+.footer-nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-navbar{
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    background-color: white;
+    border-top: groove;
+}
+
+.fnav-item{
+    margin-left: 1%;
+    float: left;
+    padding: 10px;
+    color: red;
+    list-style: none;
+}
+
+.copyright{
+    text-align: center;
+    color: red;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.fnav-item a:hover{
+    color: black;
+    border: white;
+    border-coloSr: white;
+}
+
+.social-media{
+    color: red;
+    /* float: left; */
+    padding-left: 150px;
+}
+
+/* SIGN IN & REGISTER */
+.SignIn{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: red;
+    border-color: rgb(85, 42, 95);
+}
+
+.box{
+    height: 300px;
+    width: 100%;
+}
+
+.HeadTxtSign{
+    color: rgb(254, 235, 251);
+}
+
+.sign-in{
+    background-color: rgb(254, 235, 251);
+}
+
+/* NEWSLETTER */
+.Newsletter{
+    float: right;
+    margin-right: 3px;
+    margin-top: 10px;
+    width: 150px;
+    height: 37px;
+}
+
+.Newslettertxt{
+    float: right;
+    font-size: 13.5px;
+    margin-top: 10px;
+    margin-right: 79px;
+    color: red;
+}
+
+.NewsSubButton{
+    float: right;
+    clear: right;
+    height: 40px;
+    width: 50px;
+    margin-top: 10px;
+    /* position: absolute; */
+    margin-right: 79px;
+    color: black;
+}
